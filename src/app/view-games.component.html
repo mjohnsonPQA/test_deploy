@@ -1,0 +1,14 @@
+
+<div id="game-display" class="clear">
+  <h3>Build environment: {{environmentName}} || Last updated: {{myDate | amDateFormat:'YYYY-MM-DD HH:mm' }}</h3>
+  <div class="plan" *ngFor="let game of games">
+    <h3><img src="{{game.Image}}" width=100 height=100><span>{{game.Rating}}</span></h3>
+    <a class="signup" href="{{game.BGG}}">See on BoardGameGeek</a>
+    <ul>
+      <li><b>{{game.Name}}</b></li>
+      <li>Category:<br>{{game.Category}}</li>
+      <li>Players: {{game.Players}}</li>
+      <li>{{game.Description}}</li>
+    </ul>
+  </div>
+</div>
