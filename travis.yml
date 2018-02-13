@@ -1,0 +1,9 @@
+language: go
+install:
+- go get -v github.com/mjohnsonpqa/test_deploy
+script:
+- hugo version
+- make build
+branches: 
+  only:
+  - master
