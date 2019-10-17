@@ -41,7 +41,7 @@
     "karma": "^1.7.1",
     "method-override": "^2.3.10",
     "mocha": "^4.0.1",
-    "mongoose": "^4.13.6",
+    "mongoose": "^5.7.5",
     "rxjs": "^5.0.1",
     "supertest": "^3.0.0",
     "tape": "^4.8.0",
