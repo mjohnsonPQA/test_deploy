@@ -40,7 +40,7 @@
     "express": "^4.16.2",
     "karma": "^1.7.1",
     "method-override": "^2.3.10",
-    "mocha": "^4.0.1",
+    "mocha": "^6.0.0",
     "mongoose": "^4.13.6",
     "rxjs": "^5.0.1",
     "supertest": "^3.0.0",
