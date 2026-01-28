@@ -20,7 +20,7 @@
   "dependencies": {
     "@angular-devkit/schematics": "0.0.40",
     "@angular/animations": "^5.1.0",
-    "@angular/cli": "^1.6.0",
+    "@angular/cli": "^6.0.0",
     "@angular/common": "^5.1.0",
     "@angular/compiler": "^5.1.0",
     "@angular/compiler-cli": "^5.1.0",
@@ -40,13 +40,13 @@
     "express": "^4.16.2",
     "karma": "^1.7.1",
     "method-override": "^2.3.10",
-    "mocha": "^4.0.1",
+    "mocha": "^10.6.0",
     "mongoose": "^4.13.6",
     "rxjs": "^5.0.1",
     "supertest": "^3.0.0",
     "tape": "^4.8.0",
     "ts-helpers": "^1.1.1",
-    "tslint": "^5.8.0",
+    "tslint": "^5.20.0",
     "typescript": "2.4.2",
     "zone.js": "^0.8.4"
   }
